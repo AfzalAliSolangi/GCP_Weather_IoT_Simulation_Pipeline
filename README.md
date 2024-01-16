@@ -9,10 +9,9 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 ### Project Architecture:
 ![Project_architecture](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/9ca46e82-b825-4591-8126-fed49abcb35e)
 
-### Services Used in WeatherIoT Simulation Pipeline
+### Services Used in WeatherIoT Simulation Pipeline:
 1. **Google Cloud Pub/Sub**
-   - Google Cloud Pub/Sub is a messaging service that enables real-time communication between components of a distributed system. In this    
-     project, Pub/Sub serves as the messaging middleware for IoT devices, allowing simulated sensors to publish weather data messages to a designated topic.
+   - Google Cloud Pub/Sub is a messaging service that enables real-time communication between components of a distributed system. In this project, Pub/Sub serves as the messaging middleware for IoT devices, allowing simulated sensors to publish weather data messages to a designated topic.
 
 2. **Google Cloud BigQuery**
    - Google Cloud BigQuery is a fully-managed, serverless data warehouse that enables super-fast SQL queries using the processing power of             Google's infrastructure. In this project, BigQuery is used to store and manage the processed weather data in a structured table, facilitating efficient analytics and querying.
@@ -29,7 +28,7 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
     These services collectively form an end-to-end data processing pipeline, allowing users to simulate and analyze weather data in a scalable 
     and cloud-native environment.
 
-### Steps to Set Up
+### Steps to Set Up:
 1. **Create a Topic**
    - Create a Google Cloud Pub/Sub topic to receive weather data messages.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/a7c16b0c-907d-46d4-b34b-fd3cbaaf87ee)
