@@ -42,6 +42,8 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 
 5. **Modify Code**
    - Open the Python code and add the Pub/Sub topic name and Google Cloud project ID as configuration parameters.
+   ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/ed25e360-037c-498f-96a9-3d2fce9fe955)
+
 
 6. **Run the Code**
    - Execute the Python code to simulate IoT devices, send data to Pub/Sub, and process it through Dataflow.
