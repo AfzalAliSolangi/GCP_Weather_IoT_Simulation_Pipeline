@@ -17,13 +17,17 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 1. **Create a Topic**
    - Create a Google Cloud Pub/Sub topic to receive weather data messages.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/a7c16b0c-907d-46d4-b34b-fd3cbaaf87ee)
-
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/6c5a79e9-68e5-455f-9302-70e116c522ec)
 
 2. **Create a Subscription for the Topic**
    - Set up a subscription for the created Pub/Sub topic to handle incoming messages.
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/62be6f94-d975-457e-bcc8-36b8e69061bc)
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/80be73d2-4536-42e2-9a34-647d36fb292a)
 
 3. **Create a Table in BigQuery**
-   - Create a BigQuery table to store processed weather data.
+   - Create a BigQuery table in the dataset to store processed weather data.
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/f190fa0b-f480-46a0-af10-6040eade503e)
+
 
 4. **Create a Job in Dataflow**
    - Set up a Google Cloud Dataflow job for real-time processing, transformation, and enrichment of weather data.
