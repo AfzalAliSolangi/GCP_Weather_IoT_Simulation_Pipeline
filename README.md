@@ -10,34 +10,26 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 ![Project_architecture](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/9ca46e82-b825-4591-8126-fed49abcb35e)
 
 ### Services Used in WeatherIoT Simulation Pipeline
-
 1. **Google Cloud Pub/Sub**
    - Google Cloud Pub/Sub is a messaging service that enables real-time communication between components of a distributed system. In this    
-     project, Pub/Sub serves as the messaging middleware for IoT devices, allowing simulated sensors to publish weather data messages to a 
-     designated topic.
+     project, Pub/Sub serves as the messaging middleware for IoT devices, allowing simulated sensors to publish weather data messages to a designated topic.
 
 2. **Google Cloud BigQuery**
-   - Google Cloud BigQuery is a fully-managed, serverless data warehouse that enables super-fast SQL queries using the processing power of             Google's infrastructure. In this project, BigQuery is used to store and manage the processed weather data in a structured table,             
-     facilitating efficient analytics and querying.
+   - Google Cloud BigQuery is a fully-managed, serverless data warehouse that enables super-fast SQL queries using the processing power of             Google's infrastructure. In this project, BigQuery is used to store and manage the processed weather data in a structured table, facilitating efficient analytics and querying.
 
 3. **Google Cloud Dataflow**
-   - Google Cloud Dataflow is a fully managed stream and batch processing service that enables users to process data in real-time or batch mode.       In this project, Dataflow is employed to process, transform, and enrich the incoming weather data messages from Pub/Sub. It provides a       
-     scalable and parallelized processing environment for handling large volumes of data.
+   - Google Cloud Dataflow is a fully managed stream and batch processing service that enables users to process data in real-time or batch mode.       In this project, Dataflow is employed to process, transform, and enrich the incoming weather data messages from Pub/Sub. It provides a scalable and parallelized processing environment for handling large volumes of data.
 
 4. **Python Code**
-   - The Python code is the core of the WeatherIoT Simulation Pipeline. It simulates IoT sensor devices, generating weather data readings such as      atmospheric pressure, cloud formation, wind speed, humidity, and rain intensity. The code then publishes these readings to the Pub/Sub    
-     topic, initiating the entire data processing pipeline.
+   - The Python code is the core of the WeatherIoT Simulation Pipeline. It simulates IoT sensor devices, generating weather data readings such as      atmospheric pressure, cloud formation, wind speed, humidity, and rain intensity. The code then publishes these readings to the Pub/Sub topic, initiating the entire data processing pipeline.
 
 5. **BigQuery Table**
-   - The BigQuery table is the destination for the processed weather data. The table structure is designed to accommodate the enriched data from       Dataflow, making it easy to perform analytics and queries on the collected information. It serves as the persistent storage solution for the      final output of the simulation pipeline.
+   - The BigQuery table is the destination for the processed weather data. The table structure is designed to accommodate the enriched data from       Dataflow, making it easy to perform analytics and queries on the collected information. It serves as the persistent storage solution for the final output of the simulation pipeline.
 
     These services collectively form an end-to-end data processing pipeline, allowing users to simulate and analyze weather data in a scalable 
     and cloud-native environment.
 
-
-
 ### Steps to Set Up
-
 1. **Create a Topic**
    - Create a Google Cloud Pub/Sub topic to receive weather data messages.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/a7c16b0c-907d-46d4-b34b-fd3cbaaf87ee)
