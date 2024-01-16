@@ -9,3 +9,5 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 ### Project Architecture:
 ![Project_architecture](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/9ca46e82-b825-4591-8126-fed49abcb35e)
 
+### Services Used:
+
