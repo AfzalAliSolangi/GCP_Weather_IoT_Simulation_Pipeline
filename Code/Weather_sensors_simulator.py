@@ -3,8 +3,8 @@ import time
 from google.cloud import pubsub_v1
 import json
 
-project_id = "academic-pier-405912"
-topic = "weather_world"
+project_id = ""
+topic = ""
 
 cities = ["New York", "London", "Tokyo", "Sydney", "Paris", "Berlin"]
 
