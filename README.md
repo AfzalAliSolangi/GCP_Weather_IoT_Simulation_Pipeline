@@ -16,7 +16,7 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 
 1. **Create a Topic**
    - Create a Google Cloud Pub/Sub topic to receive weather data messages.
-   - ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/a7c16b0c-907d-46d4-b34b-fd3cbaaf87ee)
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/a7c16b0c-907d-46d4-b34b-fd3cbaaf87ee)
 
 
 2. **Create a Subscription for the Topic**
