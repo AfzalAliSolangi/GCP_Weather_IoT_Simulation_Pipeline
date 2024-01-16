@@ -27,7 +27,10 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 3. **Create a Table in BigQuery**
    - Create a BigQuery table in the dataset to store processed weather data.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/f190fa0b-f480-46a0-af10-6040eade503e)
-
+   - Add the schema for the table
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/ddf54cb4-c414-4db9-94cc-4fa6793bd8bb)
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/c0db8e46-7b18-4df7-be3a-d7b1cf6abed8)
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/c21055cb-bc53-4ffd-b80f-b16446d727dd)
 
 4. **Create a Job in Dataflow**
    - Set up a Google Cloud Dataflow job for real-time processing, transformation, and enrichment of weather data.
