@@ -37,7 +37,7 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/241d7eaf-dac8-4c9c-86ea-8bcecf6bb8c2)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/981046df-b1a0-446b-9aff-80cb71201666)
    - Select the table from BigQuery and fill all the necessary input fields.
-     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/0907dd36-51e2-4123-8d99-3c8b46cde788)
+     ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/84e6463a-060f-4811-9bea-a3b70020d19f)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/74d5dd1f-0c84-4e20-a696-eadefa91eb41)
 
 5. **Modify Code**
