@@ -11,3 +11,36 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
 
 ### Services Used:
 
+
+## Steps to Set Up
+
+1. **Create a Topic**
+   - Create a Google Cloud Pub/Sub topic to receive weather data messages.
+
+2. **Create a Subscription for the Topic**
+   - Set up a subscription for the created Pub/Sub topic to handle incoming messages.
+
+3. **Create a Table in BigQuery**
+   - Create a BigQuery table to store processed weather data.
+
+4. **Create a Job in Dataflow**
+   - Set up a Google Cloud Dataflow job for real-time processing, transformation, and enrichment of weather data.
+
+5. **Modify Code**
+   - Open the Python code and add the Pub/Sub topic name and Google Cloud project ID as configuration parameters.
+
+6. **Run the Code**
+   - Execute the Python code to simulate IoT devices, send data to Pub/Sub, and process it through Dataflow.
+
+7. **Verify Data in BigQuery**
+   - Check the BigQuery table to verify that the processed weather data has been successfully stored.
+
+## Usage
+
+Provide any additional details or considerations for users to effectively use and customize the WeatherIoT Simulation Pipeline.
+
+## License
+
+This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+
+
