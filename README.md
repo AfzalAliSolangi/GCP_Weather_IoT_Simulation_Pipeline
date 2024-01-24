@@ -39,7 +39,12 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/62be6f94-d975-457e-bcc8-36b8e69061bc)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/80be73d2-4536-42e2-9a34-647d36fb292a)
 
-3. **Create a Table in BigQuery**
+3. **Setting up GCS Bucket**
+   - Create a Bucket with the structure below and upload the *Uber_Data_Pipeline(DataProc).py* file into the Scripts folder.
+     ![image](https://github.com/AfzalAliSolangi/Reddit_To_BigQuery_Airflow/assets/100179604/fac858fa-e58e-4358-83a7-0d607f896719)
+     ![image](https://github.com/AfzalAliSolangi/Reddit_To_BigQuery_Airflow/assets/100179604/9646e003-e1a0-4f4a-b59e-2de2e06e7335)
+
+4. **Create a Table in BigQuery**
    - Create a BigQuery table in the dataset to store processed weather data.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/f190fa0b-f480-46a0-af10-6040eade503e)
    - Add the schema for the table
@@ -47,7 +52,7 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/c0db8e46-7b18-4df7-be3a-d7b1cf6abed8)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/c21055cb-bc53-4ffd-b80f-b16446d727dd)
 
-4. **Create a Job in Dataflow**
+5. **Create a Job in Dataflow**
    - Set up a Google Cloud Dataflow job for real-time processing, transformation, and enrichment of weather data.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/241d7eaf-dac8-4c9c-86ea-8bcecf6bb8c2)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/981046df-b1a0-446b-9aff-80cb71201666)
@@ -55,15 +60,15 @@ This project serves as a comprehensive simulation pipeline, emulating the end-to
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/84e6463a-060f-4811-9bea-a3b70020d19f)
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/74d5dd1f-0c84-4e20-a696-eadefa91eb41)
 
-5. **Modify Code**
+6. **Modify Code**
    - Open the Python code and add the Pub/Sub topic name and Google Cloud project ID as configuration parameters.
    ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/ed25e360-037c-498f-96a9-3d2fce9fe955)
 
 
-6. **Run the Code**
+7. **Run the Code**
    - Execute the Python code to simulate IoT devices, send data to Pub/Sub, and process it through Dataflow.
 
-7. **Verify Data in BigQuery**
+8. **Verify Data in BigQuery**
    - Check the BigQuery table to verify that the processed weather data has been successfully stored.
      ![image](https://github.com/AfzalAliSolangi/GCP_Weather_IoT_Simulation_Pipeline/assets/100179604/0d9de178-7c3f-4627-816c-d09920a4c087)
 
